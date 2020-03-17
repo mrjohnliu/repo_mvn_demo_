@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<header>
+		<hname>fileName</hname>
+	</header>
+	<details>
+		<detail>
+			<dheader>
+				<dname>liuke</dname>
+				<did>510</did>
+			</dheader>
+			<daddress>
+				<email>1231@qq.com</email>
+				<address>chengdu</address>
+			</daddress>
+			<daddress>
+				<email>1232@qq.com</email>
+				<address>chengdu2</address>
+			</daddress>
+			<daddress>
+				<email>1233@qq.com</email>
+				<address>chengdu3</address>
+			</daddress>
+			<dfooter>
+				<dfSex>F</dfSex>
+				<dfage>31</dfage>
+			</dfooter>
+		</detail>
+		<detail>
+			<dheader>
+				<dname>liuyong</dname>
+				<did>511</did>
+			</dheader>
+			<daddress>
+				<email>2231@qq.com</email>
+				<address>chengdu</address>
+			</daddress>
+			<dfooter>
+				<dfSex>M</dfSex>
+				<dfage>33</dfage>
+			</dfooter>
+		</detail>
+	</details>
+	<fooder>
+		<record>3</record>
+	</fooder>
+</Root>

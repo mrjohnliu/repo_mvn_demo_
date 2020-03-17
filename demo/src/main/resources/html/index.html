@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>run job page</title>
+<style>
+</style>
+</head>
+<script type="text/javascript">
+var baseurl="http://localhost:8080";
+var httpReq=XMLHttpRequest();
+
+function runjob(){
+	var url='';
+	var jobId=document.getElmentById('jobId').value;
+	url=baseurl+'/run/'+jobId;
+	httpReq.open("GET",url,true);
+	httpReq.send();
+	httpReq.onreadystatechange=function(){
+		if(this.readyState==4 && this.status==200){
+			alert(this.responseText);
+		}
+	}
+}
+</script>
+<body>
+	<center>
+		<h2>run job</h2>
+			Job Id:<input type="text" name="jobId"  id="jobId"/><br /> <br />
+			<button  onclick="runjob();" >run job</button>
+	</center>
+</body>
+</html>
